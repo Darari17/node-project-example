@@ -8,7 +8,7 @@
     "aselole": "npm run lint && node index.js",
     "dev": "npm run lint && nodemon index.js",
     "lint": "eslint .",
-    "fix": "eslint --fix"
+    "fix": "eslint --fix ."
   },
   "keywords": [
     "koda",

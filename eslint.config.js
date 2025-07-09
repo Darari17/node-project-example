@@ -11,6 +11,7 @@ export default defineConfig([
       "@stylistic": stylistic,
     },
     rules: {
+      "no-var": "error",
       "prefer-const": "error",
       "@stylistic/semi": "error",
     },
