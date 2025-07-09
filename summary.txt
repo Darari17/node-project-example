@@ -8,3 +8,5 @@
 8. Buat file entrypoint berdasarkan protperty main di dalam packag.json
 9. buat script start yang berisikan node namaFileKalian
 10. Running script => npm start
+11. tambahkan readme.md
+12. 
