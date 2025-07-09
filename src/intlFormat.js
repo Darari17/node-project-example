@@ -16,3 +16,6 @@ function useIntlFormat(date, locale) {
 
 // format common js
 module.exports = useIntlFormat;
+
+// format esmodule
+// export default useIntlFormat
