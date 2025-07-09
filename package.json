@@ -1,0 +1,16 @@
+{
+  "name": "koda3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "aselole": "node index.js"
+  },
+  "keywords": [
+    "koda",
+    "batch 3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
