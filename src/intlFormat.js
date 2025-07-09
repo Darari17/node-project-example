@@ -1,8 +1,8 @@
 // bentuk import common js
-const { intlFormat } = require("date-fns");
+// const { intlFormat } = require("date-fns");
 
 // bentuk import esmodule
-// import { intlFormat } from "date-fns";
+import { intlFormat } from "date-fns";
 function useIntlFormat(date, locale) {
   if (locale) {
     const result = intlFormat(date, {
@@ -14,8 +14,12 @@ function useIntlFormat(date, locale) {
   return result;
 }
 
+// named export
+export const Pi = Math.PI;
+
+//disini export nya unnamed export
 // format common js
-module.exports = useIntlFormat;
+// module.exports = useIntlFormat;
 
 // format esmodule
-// export default useIntlFormat
+export default useIntlFormat;
